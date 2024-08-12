@@ -58,6 +58,8 @@ def get_response_from_query(db, query, k=4):
     response = response.replace("\n", "")
     return response, docs
 
+#Example Use Case:
+
 video_url = "https://www.youtube.com/watch?v=L_Guz73e6fw"
 db = create_db_from_youtube_video_url(video_url)
 
